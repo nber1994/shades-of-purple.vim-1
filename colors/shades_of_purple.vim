@@ -1,7 +1,7 @@
 " ===============================================================
 " shades_of_purple
-" 
-" URL: 
+"
+" URL:
 " Author: Alexander Keliris
 " License: MIT
 " Last Change: 2020/11/08 11:37
@@ -185,6 +185,15 @@ hi typescriptAliasDeclaration guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE 
 hi typescriptInterfaceKeyword guifg=#FAEFA5 ctermfg=229 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi typescriptAliasKeyword guifg=#FAEFA5 ctermfg=229 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi typescriptExport guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+
+" ====================
+" Go
+hi goFunction ctermfg=198 ctermbg=NONE gui=NONE
+hi goField ctermfg=227 ctermbg=NONE gui=NONE
+hi goOperator ctermfg=11 ctermbg=NONE gui=NONE
+hi goParamName ctermfg=198 ctermbg=NONE gui=NONE
+"hi goFunctionCall ctermfg=164 ctermbg=NONE gui=NONE
+hi goFunctionCall ctermfg=165 ctermbg=NONE gui=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
