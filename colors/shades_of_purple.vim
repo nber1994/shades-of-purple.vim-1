@@ -195,6 +195,12 @@ hi goParamName ctermfg=198 ctermbg=NONE gui=NONE
 "hi goFunctionCall ctermfg=164 ctermbg=NONE gui=NONE
 hi goFunctionCall ctermfg=165 ctermbg=NONE gui=NONE
 
+"==========================
+"php
+hi phpIdentifier ctermfg=199 ctermbg=NONE gui=NONE
+hi phpVarSelector ctermfg=11 ctermbg=NONE gui=NONE
+
+
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
 
